@@ -15,6 +15,24 @@ WEG: Web Game(Browser Game) is a computer game that is played over the Internet 
 ACT: Action Game is a video game genre that emphasizes physical challenges, including hand–eye coordination and reaction-time. The genre includes diverse subgenres such as fighting games, shooter games and platform games which are widely considered the most important action games, though multiplayer online battle arena and some real-time strategy games are also considered to be action games.
 In an action game, the player typically controls the protagonist or avatar. The avatar must navigate a level, collecting objects, avoiding obstacles, and battling enemies with various attacks. At the end of a level or group of levels, the player must often defeat a boss enemy that is more challenging and often larger than other enemies. Enemy attacks and obstacles deplete the avatar's health and lives, and the player receives a Game over when they run out of lives. Alternatively, the player wins the game by finishing a sequence of levels. But some action games, usually arcade games, are unbeatable and have an indefinite number of levels; and the player's only goal is to maximize their score by collecting objects and defeating enemies.
 
+### Research
+>Design Platform
+>>Windows Computer
+
+>Design Technology
+>>Unity 3D, version5.6.4
+
+>Design Model
+>>Single client service
+
+>Game Type
+>>A basic Role-Playing Game
+
+>Game Model
+>>Character, enemy and other objects
+
+>Design Inspiration
+>>It from a Chinese Wuxia online game. It is a kind of game that describe Wuxia culture of China
 
 ![alt text](https://user-images.githubusercontent.com/24989456/32345353-d246d4a8-c001-11e7-897a-fdfffaee34bc.png)
 ![alt text](https://user-images.githubusercontent.com/24989456/32576929-40fb64cc-c4d0-11e7-8f28-2ec1aedec2bb.png)
