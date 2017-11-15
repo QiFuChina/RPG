@@ -34,5 +34,14 @@ In an action game, the player typically controls the protagonist or avatar. The 
 >Design Inspiration
 >>It from a Chinese Wuxia online game. It is a kind of game that describe Wuxia culture of China
 
+
+### Function
+#### Manuilpate 
+>Charater can be moved by using keyboard "w-a-s-d" to control direction, "space" to jump and move mouse to adjust character view
+>Attack orders can be acessed through number keys
+
+#### Modle
+>Character model relative with animation, player press keyboard then model will reflect a set of animation as feedback 
+
 ![alt text](https://user-images.githubusercontent.com/24989456/32345353-d246d4a8-c001-11e7-897a-fdfffaee34bc.png)
 ![alt text](https://user-images.githubusercontent.com/24989456/32576929-40fb64cc-c4d0-11e7-8f28-2ec1aedec2bb.png)
