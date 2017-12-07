@@ -43,5 +43,15 @@ In an action game, the player typically controls the protagonist or avatar. The 
 #### Modle
 >Character model relative with animation, player press keyboard then model will reflect a set of animation as feedback 
 
+#### Objects
+>Enemy: The enemy has "enemy" target that different with character, when closed to character it will attack
+>Trap: These traps have "enemy" target and cause side-effect to character when triggled them
+>Scene: To allow scenes switch when character go to other environment
+
+
+### Flow of Process
+>The start menu to construct account, after click start buttom it will switch to game view model  
 ![alt text](https://user-images.githubusercontent.com/24989456/32345353-d246d4a8-c001-11e7-897a-fdfffaee34bc.png)
+>The game user interface view model, it makes game can execute orders by click buttons
 ![alt text](https://user-images.githubusercontent.com/24989456/32576929-40fb64cc-c4d0-11e7-8f28-2ec1aedec2bb.png)
+![alt text](https://user-images.githubusercontent.com/24989456/33716604-c0b6fdf4-db4e-11e7-8051-045b459b69b5.png)
