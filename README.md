@@ -36,7 +36,7 @@ In an action game, the player typically controls the protagonist or avatar. The 
 
 
 ### Function
-#### Manuilpate 
+#### Manipulate 
 >Charater can be moved by using keyboard "w-a-s-d" to control direction, "space" to jump and move mouse to adjust character view
 >Attack orders can be acessed through number keys
 
