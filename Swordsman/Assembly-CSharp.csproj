@@ -51,34 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\2D\Scripts\BackgroundParallax.cs" />
-     <Compile Include="Assets\2D\Scripts\BackgroundPropSpawner.cs" />
-     <Compile Include="Assets\2D\Scripts\Bomb.cs" />
-     <Compile Include="Assets\2D\Scripts\BombPickup.cs" />
-     <Compile Include="Assets\2D\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\2D\Scripts\Destroyer.cs" />
-     <Compile Include="Assets\2D\Scripts\Enemy.cs" />
-     <Compile Include="Assets\2D\Scripts\FollowPlayer.cs" />
-     <Compile Include="Assets\2D\Scripts\Gun.cs" />
-     <Compile Include="Assets\2D\Scripts\HealthPickup.cs" />
-     <Compile Include="Assets\2D\Scripts\LayBombs.cs" />
-     <Compile Include="Assets\2D\Scripts\Pauser.cs" />
-     <Compile Include="Assets\2D\Scripts\PickupSpawner.cs" />
-     <Compile Include="Assets\2D\Scripts\PlayerControl.cs" />
-     <Compile Include="Assets\2D\Scripts\PlayerHealth.cs" />
-     <Compile Include="Assets\2D\Scripts\Remover.cs" />
-     <Compile Include="Assets\2D\Scripts\Rocket.cs" />
-     <Compile Include="Assets\2D\Scripts\Score.cs" />
-     <Compile Include="Assets\2D\Scripts\ScoreShadow.cs" />
-     <Compile Include="Assets\2D\Scripts\SetParticleSortingLayer.cs" />
-     <Compile Include="Assets\2D\Scripts\Spawner.cs" />
-     <Compile Include="Assets\AM\C#\Character.cs" />
-     <Compile Include="Assets\AM\C#\Cube.cs" />
-     <Compile Include="Assets\AM\Color\Ice.cs" />
-     <Compile Include="Assets\AM\Damage\Damage.cs" />
-     <Compile Include="Assets\AM\Life\Damage.cs" />
-     <Compile Include="Assets\AM\Life\Life.cs" />
      <Compile Include="Assets\daa.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\TargetManager.cs" />
  <Reference Include="UnityEngine.UI">

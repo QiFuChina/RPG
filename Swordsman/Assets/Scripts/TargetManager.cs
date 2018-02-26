@@ -15,7 +15,7 @@ public class TargetManager : MonoBehaviour {
 
             monster.GetComponent<BoxCollider>().enabled = false;
             monster.SetActive(false);
-        }
+        };
         ActivateMonster();
         
     }

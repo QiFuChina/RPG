@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
       private Player m_Player;
       public Vector3 offset;
       private float _pointY;
-	public float Speed = 3.0f;
+	public float Speed = 0.003f;
       public float damping = 1;
 	//Default move speed
 
@@ -26,17 +26,17 @@ public class Player : MonoBehaviour {
         
         transform.LookAt(m_Player.transform.position);
 
-		 if (Input.GetKey (KeyCode.W)) {
-                              gameObject.GetComponent<Transform> ().Translate (Vector3.forward * 0.1f, Space.Self);
+		       if (Input.GetKey (KeyCode.W)) {
+                              gameObject.GetComponent<Transform> ().Translate (Vector3.forward * 0.05f, Space.Self);
                    }
                    if (Input.GetKey (KeyCode.S)) {
-                            gameObject.GetComponent<Transform> ().Translate (Vector3.back * 0.1f, Space.Self);
+                            gameObject.GetComponent<Transform> ().Translate (Vector3.back * 0.05f, Space.Self);
                    }
                    if (Input.GetKey (KeyCode.A)) {
-                          gameObject.GetComponent<Transform> ().Translate (Vector3.left * 0.1f, Space.Self);
+                          gameObject.GetComponent<Transform> ().Translate (Vector3.left * 0.05f, Space.Self);
                    }
                    if (Input.GetKey (KeyCode.D)) {
-                         gameObject.GetComponent<Transform> ().Translate (Vector3.right * 0.1f, Space.Self);
+                         gameObject.GetComponent<Transform> ().Translate (Vector3.right * 0.05f, Space.Self);
                    }
                    //跳跃
                    if (Input.GetKey (KeyCode.Space)) {
