@@ -5,7 +5,6 @@ using UnityEngine;
 public class TargetManager : MonoBehaviour {
 
     public GameObject[] monsters;
-    //public GameObject[] monsters;
     public GameObject activeMonster = null;
     private void start()
     {

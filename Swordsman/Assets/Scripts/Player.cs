@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
+    public Animator animator;
+    public Collider AtkCollider;
 
-      private Player m_Player;
-      public Vector3 offset;
-      private float _pointY;
-	public float Speed = 0.003f;
-      public float damping = 1;
+    private Player m_Player;
+    public Vector3 offset;
+    private float _pointY;
+	public float Speed = 0.3f;
+    public float damping = 5;
 	//Default move speed
 
 	// Use this for initialization
@@ -29,26 +31,42 @@ public class Player : MonoBehaviour {
 		       if (Input.GetKey (KeyCode.W)) {
                               gameObject.GetComponent<Transform> ().Translate (Vector3.forward * 0.05f, Space.Self);
                    }
-                   if (Input.GetKey (KeyCode.S)) {
+               if (Input.GetKey (KeyCode.S)) {
                             gameObject.GetComponent<Transform> ().Translate (Vector3.back * 0.05f, Space.Self);
                    }
-                   if (Input.GetKey (KeyCode.A)) {
+               if (Input.GetKey (KeyCode.A)) {
                           gameObject.GetComponent<Transform> ().Translate (Vector3.left * 0.05f, Space.Self);
                    }
-                   if (Input.GetKey (KeyCode.D)) {
+               if (Input.GetKey (KeyCode.D)) {
                          gameObject.GetComponent<Transform> ().Translate (Vector3.right * 0.05f, Space.Self);
                    }
-                   //跳跃
-                   if (Input.GetKey (KeyCode.Space)) {
+                   //jump
+               if (Input.GetKey (KeyCode.Space)) {
                             gameObject.GetComponent<Transform> ().Translate (Vector3.up * Time.deltaTime * Speed);
                    }
-                   //转向
-                   if (Input.GetKey (KeyCode.LeftArrow)) {
+                   //turn
+               if (Input.GetKey (KeyCode.LeftArrow)) {
                             gameObject.GetComponent<Transform> ().Rotate (0f, -2f, 0f);
                    }
-                   if (Input.GetKey (KeyCode.RightArrow)) {
+               if (Input.GetKey (KeyCode.RightArrow)) {
                             gameObject.GetComponent<Transform> ().Rotate (0f, 2f, 0f);
                    }
-		
+		// if (Input.GetKey (KeyCode.j)) {
+		// 	anim.SetBool ("Attack", true);
+		// } else {
+		// 	anim.SetBool ("Attack", false);
+			
+		// }
+       
+
 	}
+    // public void OnTriggerEnter(Collider col){
+    //     if(col.tag=="monsters"){
+	// 		print("OK");
+	// 	}  
+    //     }
+    public void Collider(Collider col){
+        
+    
+    }
 }
