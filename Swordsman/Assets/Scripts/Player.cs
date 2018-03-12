@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
-    public Animator animator;
+    public Animator anim;
     public Collider AtkCollider;
 
     private Player m_Player;
@@ -16,7 +16,8 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		m_Player = GameObject.Find("Player").GetComponent<Player>(); 
-            offset =  transform.position- m_Player.transform.position;
+        offset =  transform.position- m_Player.transform.position;
+        anim=GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -51,12 +52,12 @@ public class Player : MonoBehaviour {
                if (Input.GetKey (KeyCode.RightArrow)) {
                             gameObject.GetComponent<Transform> ().Rotate (0f, 2f, 0f);
                    }
-		// if (Input.GetKey (KeyCode.j)) {
-		// 	anim.SetBool ("Attack", true);
-		// } else {
-		// 	anim.SetBool ("Attack", false);
+		if (Input.GetKey (KeyCode.J)) {
+			anim.SetBool ("Attack", true);
+		} else {
+			anim.SetBool ("Attack", false);
 			
-		// }
+		}
        
 
 	}
