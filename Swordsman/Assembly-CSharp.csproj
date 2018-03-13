@@ -579,6 +579,7 @@
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\DoorHinge.cs" />
+     <Compile Include="Assets\Scripts\HPBar.cs" />
      <Compile Include="Assets\Scripts\MonsterAI.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\TargetManager.cs" />
