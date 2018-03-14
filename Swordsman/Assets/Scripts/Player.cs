@@ -54,18 +54,20 @@ public class Player : MonoBehaviour {
                    }
 		if (Input.GetKey (KeyCode.J)) {
 			anim.SetBool ("Attack", true);
-		} else {
+            AtkCollider.GetComponent<SphereCollider>().enabled = true;
+            } else {
 			anim.SetBool ("Attack", false);
+            AtkCollider.GetComponent<SphereCollider>().enabled = false;
 			
 		}
        
 
 	}
-    // public void OnTriggerEnter(Collider col){
-    //     if(col.tag=="monsters"){
-	// 		print("OK");
-	// 	}  
-    //     }
+    public void OnTriggerEnter(Collider col){
+        if(col.tag=="monsters"){
+			print("OK");
+		}  
+        }
     public void Collider(Collider col){
         
     

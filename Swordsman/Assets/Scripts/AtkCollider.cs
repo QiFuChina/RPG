@@ -15,8 +15,8 @@ public class AtkCollider : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider col){
-        if(col.tag=="monsters"){
-			print("OK");
-		}  
+        // if(col.tag=="monsters"){
+		// 	print("OK");
+		// }  
         }
 }
