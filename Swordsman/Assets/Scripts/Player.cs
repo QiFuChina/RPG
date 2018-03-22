@@ -1,8 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
+    [Header("PLayer Attributes")]
+    public int hp;
+    [Range(0,100)]
+    public int hpMax=100;
+
+    [Header("Player UI")]
+    public Text hpText;
+    public Image hpBar;
+
     public Animator anim;
     public Collider AtkCollider;
 
@@ -13,11 +23,16 @@ public class Player : MonoBehaviour {
     public float damping = 5;
 	//Default move speed
 
+    public GameObject exitButton;
+
 	// Use this for initialization
 	void Start () {
 		m_Player = GameObject.Find("Player").GetComponent<Player>(); 
         offset =  transform.position- m_Player.transform.position;
         anim=GetComponent<Animator>();
+        hpText.text="I'm Player";
+        hp =hpMax;
+        hpBar.fillAmount=(float)hp/(float)hpMax;
 	}
 	
 	// Update is called once per frame
@@ -60,16 +75,23 @@ public class Player : MonoBehaviour {
             AtkCollider.GetComponent<SphereCollider>().enabled = false;
 			
 		}
-       
-
-	}
-    public void OnTriggerEnter(Collider col){
-        if(col.tag=="monsters"){
-			print("OK");
-		}  
-        }
-    public void Collider(Collider col){
-        
-    
+        hpBar.fillAmount=(float)hp/(float)hpMax;
     }
-}
+    void OnTriggerEnter(Collider col){
+        if(col.tag=="AtkSphereEnemy"){
+            if(hp>0){
+                anim.SetTrigger("hit");
+                hp=Mathf.Clamp(hp-5,0,hpMax);
+                print("player being hit");          
+            if(hp<=0){
+                anim.SetBool("die",true);
+                print("player die");
+                exitButton.SetActive(true); 
+                this.enabled=false;
+            }          
+        }
+        }
+        hpBar.fillAmount=(float)hp/(float)hpMax;
+    }
+    void Collider(Collider col){}
+    }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59afa1f2c595d6343b15e945602e1f8f
+guid: 4d49e69e738cc6f42bafc9229152b6fd
 timeCreated: 1480907741
 licenseType: Store
 ModelImporter:
@@ -99,22 +99,70 @@ ModelImporter:
     7400004: bat_attack
     7400006: bat_damage
     7400008: bat_die
+    7400010: bat_idle //// Level1
+    7400012: bat_move //// Level1
+    7400014: bat_attack //// Level1
+    7400016: bat_damage //// Level1
+    7400018: bat_die //// Level1
     9500000: //RootNode
     11100000: //RootNode
+    11100002: Bat1Control
+    11100004: HeadControl
+    11100006: HeadJoint
+    11100008: lWing
+    11100010: lWing2
+    11100012: lWing3
+    11100014: lWing4
+    11100016: lWing5
+    11100018: lWingControl
+    11100020: lWingControl 1
+    11100022: lWingControl2
+    11100024: lWingControl2 1
+    11100026: lWingControl3
+    11100028: lWingControl4
+    11100030: lWingControl5
+    11100032: lWingControl6
+    11100034: lWingControl7
+    11100036: lWingControl8
+    11100038: lWingControl9
+    11100040: lWingRoot
+    11100042: lWingRootControl
+    11100044: lWingRootControl1
+    11100046: lWingTail
+    11100048: lWingTail2
+    11100050: lWingTail3
+    11100052: Mesh
+    11100054: NoseControl
+    11100056: NoseJoint
+    11100058: NoseTipJoint
+    11100060: RIG
+    11100062: RootJoint
+    11100064: rWing
+    11100066: rWing2
+    11100068: rWing3
+    11100070: rWing4
+    11100072: rWing5
+    11100074: rWingRoot
+    11100076: rWingTailControl
+    11100078: rWingTailControl2
+    11100080: rWingTailControl3
+    11100082: rWingTair
+    11100084: rWingTair2
+    11100086: rWingTair3
     13700000: Mesh
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: BatMaterial
-    second: {fileID: 2100000, guid: 87ea106d9f36d864b96a62e56e05b8c5, type: 2}
+    second: {fileID: 2100000, guid: 58c3e4e18dc28b9428610a690faa9e3f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
   animations:
-    legacyGenerateAnimations: 4
+    legacyGenerateAnimations: 1
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
@@ -126,7 +174,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -397,7 +445,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.49645388
+        functionName: AtkStartEnemy
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7482272
+        functionName: AtkStopEnemy
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -750,6 +812,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -779,7 +843,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
