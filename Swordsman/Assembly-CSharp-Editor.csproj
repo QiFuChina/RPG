@@ -113,7 +113,7 @@
      <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
      <None Include="Assets\Fungus\Fungus\Thirdparty\Reorderable List Field\Editor\Editor.ReorderableList.xml" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>G:/文档/Unity/Swordsman/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>G:/APP/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -179,19 +179,19 @@
  <HintPath>G:/APP/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Editor.ReorderableList">
- <HintPath>G:/文档/Unity/Swordsman/Assets/Fungus/Fungus/Thirdparty/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/Fungus/Fungus/Thirdparty/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
  </Reference>
  <Reference Include="RAIN">
- <HintPath>G:/文档/Unity/Swordsman/Assets/RAIN/RAIN.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/RAIN/RAIN.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaform">
- <HintPath>G:/文档/Unity/Swordsman/Assets/RAIN/RAINMetaform.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
  <Reference Include="RAINEditor">
- <HintPath>G:/文档/Unity/Swordsman/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaformEditor">
- <HintPath>G:/文档/Unity/Swordsman/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/51746/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

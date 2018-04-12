@@ -574,10 +574,13 @@
      <Compile Include="Assets\Fungus\Fungus\Thirdparty\Usfxr\Scripts\SfxrSynth.cs" />
      <Compile Include="Assets\Fungus\FungusExamples\FungusLua\Bindings\CustomScript.cs" />
      <Compile Include="Assets\Fungus\FungusExamples\MonoBehEvents\SpriteColorChangeFromFungusMouseEvent.cs" />
+     <Compile Include="Assets\GM.cs" />
      <Compile Include="Assets\Knight\scripts\rotator.cs" />
+     <Compile Include="Assets\MyData.cs" />
      <Compile Include="Assets\Scripts\AtkCollider.cs" />
      <Compile Include="Assets\Scripts\AtkSphereEnemy.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\ColliderScript.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\DoorHinge.cs" />
      <Compile Include="Assets\Scripts\HPBar.cs" />
@@ -685,19 +688,19 @@
  <HintPath>G:/APP/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Editor.ReorderableList">
- <HintPath>G:/文档/Unity/Swordsman/Assets/Fungus/Fungus/Thirdparty/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/Fungus/Fungus/Thirdparty/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
  </Reference>
  <Reference Include="RAIN">
- <HintPath>G:/文档/Unity/Swordsman/Assets/RAIN/RAIN.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/RAIN/RAIN.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaform">
- <HintPath>G:/文档/Unity/Swordsman/Assets/RAIN/RAINMetaform.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
  <Reference Include="RAINEditor">
- <HintPath>G:/文档/Unity/Swordsman/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
  </Reference>
  <Reference Include="RAINMetaformEditor">
- <HintPath>G:/文档/Unity/Swordsman/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
+ <HintPath>G:/Documents/Unity/Swordsman/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/51746/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

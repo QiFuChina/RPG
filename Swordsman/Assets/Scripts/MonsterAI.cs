@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class MonsterAI : MonoBehaviour {
 
 	[Header("Attributes")]
@@ -25,6 +26,8 @@ public class MonsterAI : MonoBehaviour {
 	private Collider col;
 	private Collider atkSphereEnemy;
 	private GameObject AI;
+
+	public Player other;
 	// Use this for initialization
 	private void Awake () {
 		hp=hpMax;
@@ -68,6 +71,7 @@ public class MonsterAI : MonoBehaviour {
 		anim.SetTrigger("die");
 		//col.enabled=false;	
 		Destroy(gameObject,1.0f);
+		//i=i+5;
 		
 	}
 	public void AtkStartEnemy(){

@@ -12,6 +12,8 @@ public class Player : MonoBehaviour {
     [Header("Player UI")]
     public Text hpText;
     public Image hpBar;
+    public Text Level;
+    public int i=0,l=1;
 
     public Animator anim;
     public Collider AtkCollider;
@@ -33,6 +35,8 @@ public class Player : MonoBehaviour {
         hpText.text="I'm Player";
         hp =hpMax;
         hpBar.fillAmount=(float)hp/(float)hpMax;
+        Level.text="1";
+        
 	}
 	
 	// Update is called once per frame
