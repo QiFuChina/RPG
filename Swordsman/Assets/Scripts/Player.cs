@@ -49,28 +49,29 @@ public class Player : MonoBehaviour {
         transform.LookAt(m_Player.transform.position);
 
 		       if (Input.GetKey (KeyCode.W)) {
-                              gameObject.GetComponent<Transform> ().Translate (Vector3.forward * 0.05f, Space.Self);
+                        gameObject.GetComponent<Transform> ().Translate (Vector3.forward * 0.05f, Space.Self);
                    }
                if (Input.GetKey (KeyCode.S)) {
-                            gameObject.GetComponent<Transform> ().Translate (Vector3.back * 0.05f, Space.Self);
+                        gameObject.GetComponent<Transform> ().Translate (Vector3.back * 0.05f, Space.Self);
                    }
                if (Input.GetKey (KeyCode.A)) {
-                          gameObject.GetComponent<Transform> ().Translate (Vector3.left * 0.05f, Space.Self);
+                        gameObject.GetComponent<Transform> ().Translate (Vector3.left * 0.05f, Space.Self);
                    }
                if (Input.GetKey (KeyCode.D)) {
-                         gameObject.GetComponent<Transform> ().Translate (Vector3.right * 0.05f, Space.Self);
+                        gameObject.GetComponent<Transform> ().Translate (Vector3.right * 0.05f, Space.Self);
                    }
-                   //jump
-               if (Input.GetKey (KeyCode.Space)) {
-                            gameObject.GetComponent<Transform> ().Translate (Vector3.up * Time.deltaTime * Speed);
-                   }
-                   //turn
+                
+                //turn
                if (Input.GetKey (KeyCode.LeftArrow)) {
-                            gameObject.GetComponent<Transform> ().Rotate (0f, -2f, 0f);
+                        gameObject.GetComponent<Transform> ().Rotate (0f, -2f, 0f);
                    }
                if (Input.GetKey (KeyCode.RightArrow)) {
-                            gameObject.GetComponent<Transform> ().Rotate (0f, 2f, 0f);
+                        gameObject.GetComponent<Transform> ().Rotate (0f, 2f, 0f);
                    }
+                //jump            
+             //if (Input.GetKey (KeyCode.Space)) {
+             //          gameObject.GetComponent<Transform> ().Translate (Vector3.up * Time.deltaTime * Speed);
+             //     }
 		if (Input.GetKey (KeyCode.J)) {
 			anim.SetBool ("Attack", true);
             AtkCollider.GetComponent<SphereCollider>().enabled = true;
