@@ -2042,17 +2042,45 @@ Prefab:
     - target: {fileID: 224726720216623216, guid: 07b8234f2bc12e64bb8a59d4d286117a,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224726720216623216, guid: 07b8234f2bc12e64bb8a59d4d286117a,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114181164374707180, guid: 07b8234f2bc12e64bb8a59d4d286117a,
         type: 2}
       propertyPath: hpMax
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109526102124598, guid: 07b8234f2bc12e64bb8a59d4d286117a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224928292191639446, guid: 07b8234f2bc12e64bb8a59d4d286117a,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224928292191639446, guid: 07b8234f2bc12e64bb8a59d4d286117a,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224928292191639446, guid: 07b8234f2bc12e64bb8a59d4d286117a,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114181164374707180, guid: 07b8234f2bc12e64bb8a59d4d286117a,
+        type: 2}
+      propertyPath: other
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131953530741714, guid: 07b8234f2bc12e64bb8a59d4d286117a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114682141110121314, guid: 07b8234f2bc12e64bb8a59d4d286117a,
         type: 2}
@@ -2088,7 +2116,7 @@ Prefab:
     - target: {fileID: 114682141110121314, guid: 07b8234f2bc12e64bb8a59d4d286117a,
         type: 2}
       propertyPath: _serializer._serializedMetaDocument
-      value: <meta><element0><key>/component/_ai+_selected</key><value type="System.Int32">5</value></element0></meta>
+      value: <meta><element0><key>/component/_ai+_selected</key><value type="System.Int32">0</value></element0></meta>
       objectReference: {fileID: 0}
     - target: {fileID: 114682141110121314, guid: 07b8234f2bc12e64bb8a59d4d286117a,
         type: 2}
@@ -2119,30 +2147,6 @@ Prefab:
         type: 2}
       propertyPath: _serializer._serializedCustomData.Array.size
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1109526102124598, guid: 07b8234f2bc12e64bb8a59d4d286117a, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224928292191639446, guid: 07b8234f2bc12e64bb8a59d4d286117a,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224928292191639446, guid: 07b8234f2bc12e64bb8a59d4d286117a,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224928292191639446, guid: 07b8234f2bc12e64bb8a59d4d286117a,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114181164374707180, guid: 07b8234f2bc12e64bb8a59d4d286117a,
-        type: 2}
-      propertyPath: other
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07b8234f2bc12e64bb8a59d4d286117a, type: 2}
@@ -2210,6 +2214,10 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1131953530741714, guid: 07b8234f2bc12e64bb8a59d4d286117a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114682141110121314, guid: 07b8234f2bc12e64bb8a59d4d286117a,
         type: 2}
       propertyPath: _serializer._preferredSerialization
@@ -2244,7 +2252,7 @@ Prefab:
     - target: {fileID: 114682141110121314, guid: 07b8234f2bc12e64bb8a59d4d286117a,
         type: 2}
       propertyPath: _serializer._serializedMetaDocument
-      value: <meta><element0><key>/component/_ai+_selected</key><value type="System.Int32">0</value></element0><element1><key>/component/_ai/_navigator/_graphTags+_foldout</key><value
+      value: <meta><element0><key>/component/_ai+_selected</key><value type="System.Int32">1</value></element0><element1><key>/component/_ai/_navigator/_graphTags+_foldout</key><value
         type="System.Boolean">False</value></element1></meta>
       objectReference: {fileID: 0}
     - target: {fileID: 114682141110121314, guid: 07b8234f2bc12e64bb8a59d4d286117a,
