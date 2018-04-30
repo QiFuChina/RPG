@@ -31,7 +31,7 @@ It contains:
 \item Application package.
 \item Documents of application. 
 \item Assets Package.
-\item Source code of application.
+\item Source codes of application.
 \end{itemize}
 Video Line: \href{https://youtu.be/4Db_27HFujA}{here}
 \section{Application Information}
@@ -54,20 +54,19 @@ Role-Playing Game
 \\
 \item Design Inspiration
 :
-It from a Chinese Wuxia online game.
+It is from a Chinese Wuxia online game.
 \\
 \item Manipulate
 :
-The Character can be moved by using keyboard "w-a-s-d" to control direction, "up-down-left-right" can adjust the direction of view.The key "J" is Attack order and key "F" can interact with game objects like communication.
+The Character can be moved by pressing keyboard "w-a-s-d" to control the direction, "up-down-left-right" can adjust the direction of view.The key "J" is attack order and key "F" can interact with game objects like communication.
 \\
 \item Model
 :
-Character model relative with animation, player press keyboard then the model will reflect a set of animation as feedback
+The character model relative with animations, the player press keyboard then the model will reflect a set of animation as feedback
 \\
 \item Objects
 :
-Enemy: The enemy has "enemy" target that different with the character when closed to the character it will attack Trap: These traps have "enemy" target and cause side-effect to the character when trigger them Scene: To allow scenes switch when the character dies. 
-
+The enemy has "enemy" target that different with the character when enemies closed to the character it will attack the character.
 \end{itemize}
 
 \subsection{Expected Objectives}
@@ -96,7 +95,7 @@ Enemy: The enemy has "enemy" target that different with the character when close
 
 \begin{itemize}
 \item Agile / incremental and iterative approach to development. \\
-This project aimed at basic functions of the regular role-playing game at first, and then develop the advanced functions after basic functions finished. 
+This project aimed at basic functions of the regular role-playing game at first, and then develop the advanced functions after basic functions are finished. 
 \item What about validation and testing? \\
 It can be worked successfully in the windows 10 64bit system. 
 \item If team based, did you use GitHub during the development process.\\
@@ -109,7 +108,7 @@ C\# is the wide language that is used in Unity 3D game development industry so t
 \chapter{Technology Review}
 \section{Scripts of Game Objects}
 \begin{itemize}
-This graph is the structure of the application, Unity is the design platform and it contains C\# scripts and animation controller. The command will be inputted from keyboard and application process it to present in the game world.\\
+This graph is the structure of the application, Unity is the design platform and it contains C\# scripts and animation controller. The command will be input from keyboard and application will process it to present in the game world.\\
 \includegraphics[scale=0.5]{img/MainGraph.png}\\
 Description :\\
 \item Unity is a cross-platform game engine developed by Unity Technologies\href{https://venturebeat.com/2014/10/23/john-riccitiello-sets-out-to-identify-the-engine-of-growth-for-unity-technologies-interview/}{[2]}, which is primarily used to develop both three-dimensional and two-dimensional video games and simulations for computers, consoles, and mobile devices. First announced only for OS X at Apple's Worldwide Developers Conference in 2005, it has since been extended to target 27 platforms\href{https://unity3d.com/cn/unity/features/multiplatform}{[3]}\href{https://insights.dice.com/2013/06/03/how-unity3d-become-a-game-development-beast/}{[4]}. Six major versions of Unity have been released. For a list of games made with Unity, visit List of Unity games.\\
@@ -131,7 +130,7 @@ These variables are player character attributes\\
 After game sense be loaded, the start function will be executed first to find the game object that name is "Player" and access its position, then set the default name, healthy value, and level to the character.\\
 
 \includegraphics[scale=0.4]{img/Camera.png}\\{Figure 2}\\
-The update function will be updated every frame to detect the play character status and the first thing is making the camera look at the character in the fixed degree.\\
+The update function will be updated every frame to detect the player character status and the first thing is making the camera look at the character in the fixed degree.\\
 
 
 \includegraphics[scale=0.4]{img/Moving.png}\\{Figure 3}\\
@@ -175,7 +174,7 @@ This is a tool of monsters AI controller.
 \begin{itemize}
 \item After downloading the RAIN package, import it and open it on the Unity edit row, selecting one object and click RAIN→Create New→AI to add the AI component to the target object.  \\
 \includegraphics[scale=0.5]{img/RainInspector.png}\\
-\item This component has two visual sensors: far and near. These sensors make monsters can "see" the player character if they are close.\\
+\item This component has two visual sensors: far and near. These sensors make monsters can "see" the player character if they are closed.\\
 \item The AI tree sets a list of condition to make monsters can execute correct performance under different situations.\\
 \includegraphics[scale=0.5]{img/RainWindows.png}
 The constraint command is conditional judgment statement. To set a key value of the condition previously and create "waypointpatrol", once condition was triggered then relative constraint commands will be executed. And the same level of constraints are parallel relationship it means one constraint can break another constraint.\\
